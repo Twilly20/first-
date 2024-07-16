@@ -1,0 +1,156 @@
+/* Appliquer des styles de base au corps de la page */
+body {
+  /* Définir la police par défaut */
+  font-family: Arial, sans-serif;
+  /* Définir la couleur de fond de la page */
+  background-color: #f0f2f5;
+  /* Utiliser Flexbox pour centrer le contenu */
+  display: flex;
+  /* Centrer horizontalement */
+  justify-content: center;
+  /* Centrer verticalement */
+  align-items: center;
+  /* Prendre toute la hauteur de la fenêtre */
+  height: 100vh;
+  /* Supprimer les marges par défaut */
+  margin: 0;
+}
+
+/* Style pour le conteneur de connexion */
+.login-container {
+  /* Couleur de fond blanche pour le conteneur */
+  background-color: #fff;
+  /* Espacement intérieur */
+  padding: 20px;
+  /* Coins arrondis */
+  border-radius: 8px;
+  /* Ombre pour donner de la profondeur */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Largeur fixe du conteneur */
+  width: 300px;
+  /* Centrer le texte */
+  text-align: center;
+}
+
+/* Style pour le conteneur de connexion */
+.login-co {
+  /* Couleur de fond blanche pour le conteneur */
+  background-color: #fff;
+  /* Espacement intérieur */
+  padding: 20px;
+  /* Coins arrondis */
+  border-radius: 8px;
+  /* Ombre pour donner de la profondeur */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Largeur fixe du conteneur */
+  width: 300px;
+  /* Centrer le texte */
+  text-align: top;
+}
+
+/* Style pour le titre de la page */
+h2 {
+  /* Espacement en bas du titre */
+  margin-bottom: 20px;
+  /* Couleur du texte */
+  color: #333;
+}
+
+/* Style pour chaque groupe de formulaire */
+.form-group {
+  /* Espacement en bas du groupe de formulaire */
+  margin-bottom: 15px;
+  /* Aligner le texte à gauche */
+  text-align: left;
+}
+
+/* Style pour les étiquettes des champs de formulaire */
+label {
+  /* Afficher les étiquettes en bloc */
+  display: block;
+  /* Espacement en bas de l'étiquette */
+  margin-bottom: 5px;
+  /* Couleur du texte */
+  color: #333;
+}
+
+/* Style pour les champs de saisie */
+input {
+  /* Prendre toute la largeur du conteneur parent */
+  width: 100%;
+  /* Espacement intérieur */
+  padding: 10px;
+  /* Bordure fine et grise */
+  border: 1px solid #ccc;
+  /* Coins légèrement arrondis */
+  border-radius: 4px;
+  /* Assurer que le modèle de boîte inclut le padding et la bordure dans la largeur et la hauteur */
+  box-sizing: border-box;
+}
+
+/* Style pour le bouton de connexion */
+button {
+  /* Prendre toute la largeur du conteneur parent */
+  width: 100%;
+  /* Espacement intérieur */
+  padding: 10px;
+  /* Couleur de fond bleue */
+  background-color: #007bff;
+  /* Supprimer la bordure */
+  border: none;
+  /* Coins arrondis */
+  border-radius: 4px;
+  /* Couleur du texte blanche */
+  color: #fff;
+  /* Taille de police */
+  font-size: 16px;
+  /* Curseur pointeur pour indiquer que c'est cliquable */
+  cursor: pointer;
+}
+
+/* Style pour le bouton de connexion */
+.conn {
+  /* Prendre toute la largeur du conteneur parent */
+  width: 10px;
+  /* Espacement intérieur */
+  padding: 10px;
+  /* Couleur de fond bleue */
+  background-color: #007bff;
+  /* Supprimer la bordure */
+  border: none;
+  /* Coins arrondis */
+  border-radius: 4px;
+  /* Couleur du texte blanche */
+  color: #fff;
+  /* Taille de police */
+  font-size: 16px;
+  /* Curseur pointeur pour indiquer que c'est cliquable */
+  cursor: pointer;
+  text-align: end;
+}
+
+/* Style pour le bouton de connexion au survol */
+button:hover {
+  /* Couleur de fond bleue plus foncée */
+  background-color: #0056b3;
+}
+
+/* Style pour les boutons de navigation */
+.nav-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+}
+
+/* Positionnement du bouton Précédent à gauche */
+#previousButton {
+  left: 10px;
+}

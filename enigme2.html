@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subtraction Introduction & Practice</title>
+    <!-- Lien vers le fichier CSS pour les styles -->
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body class="e2">
+    <div class="container">
+      <div class="content">
+        <div class="header">
+          <div class="title-bg">MISSION 1</div>
+          <div class="title">
+            Bravo tu as réussi la première étape mais c'est maintenant que les
+            vraies portes 'se ouverts'. Maintenant, tu dois te rendre a cette
+            adresse: () pour récupérer un colis. Ne t'inquiète pas tout est a
+            ton nom. quand tu recupereras le colis tu devras l'ouvrir, dedans se
+            trouve un code que tu devras entrer pour passer a la prochaine
+            mission. Dépêche- toi car tu as encore assez de choses à faire.
+            Bonne chance bebe.
+
+            <p>RAPPEL: TOUT DOIT ETRE ECRIT EN MINISCULE!!</p>
+
+            <form id="enigmeForm" onsubmit="return validateAnswer()">
+              <div class="input-container">
+                <input
+                  type="text"
+                  placeholder="Entrez votre réponse"
+                  class="input-field"
+                  id="userInput"
+                />
+                <button type="submit" class="bottom-link">VALIDER</button>
+              </div>
+              <div id="errorMessage" class="error-message"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function validateAnswer() {
+        const correctAnswer = "hello"; // Réponse correcte
+        const userInput = document.getElementById("userInput").value.trim();
+        const errorMessage = document.getElementById("errorMessage");
+
+        if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+          // Si la réponse est correcte, redirigez vers la page suivante
+          window.location.href = "enigme3.html";
+        } else {
+          // Si la réponse est incorrecte, affichez un message d'erreur
+          errorMessage.textContent = "Réponse incorrecte. Veuillez réessayer.";
+        }
+
+        return false; // Empêche le formulaire de se soumettre de manière traditionnelle
+      }
+    </script>
+  </body>
+</html>

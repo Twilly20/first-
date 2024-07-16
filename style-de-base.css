@@ -1,0 +1,62 @@
+a {
+  color: red; /*colorie les liens*/
+}
+
+.imp {
+  color: #a5b4fc;
+}
+
+p {
+  font-family: ""; /*type de police*/
+  font-size: ""; /*taille de police*/
+  text-align: ""; /*alignement de police*/
+  background-color: bisque; /*couleur de fond*/
+  background-image: url(""); /*ajoute image de fond*/
+  margin: 50px; /*centrer le text(si vous mettez"auto" elle va la centrer au milieu)*/
+  padding-top: 10px; /*centrer le haut du  text*/
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+bordure {
+  border: 2px solid blue; /*creer une bordure*/
+  border-radius: 10px 30px 50px 70px; /*arondir  une bordure*/
+  box-shadow: 7px 7px 7px blue; /*ajouter  ombre*/
+}
+
+img:hover {
+  opacity: 0.5; /*limage change de couleur quand la souris est sur elle*/
+}
+
+p:hover {
+  color: blue; /*le texte change de couleur quand la souris est sur elle*/
+  text-decoration: underline; /*le texte se souligne quand la souris est sur elle*/
+}
+
+p:active {
+  text-decoration-color: blue; /*le texte change de couleur quand on clic sur lui*/
+}
+
+p:focus {
+  outline-color: bisque;
+  background-color: aqua; /*change la couleur du texte selectioner*/
+}
+
+.conteneur {
+  display: flex; /*rend les conteneur flexible*/
+  flex-direction: row; /*rang les conteneur horizontal*/
+  justify-content: space-around; /*rang les conteneur horizontal avec des espaces autour*/
+  flex-wrap: wrap; /*permet au conteneur de sadapter aux taille decran*/
+}
+
+.box {
+  border: 7px solid blue; /*creer une bordure*/
+  margin: 50px; /*centrer le text(si vous mettez"auto" elle va la centrer au milieu)*/
+
+  border-radius: 10px 10px 10px 10px; /*arondir  une bordure*/
+  padding-top: 10px; /*centrer le haut du  text*/
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

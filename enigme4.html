@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subtraction Introduction & Practice</title>
+    <!-- Lien vers le fichier CSS pour les styles -->
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body class="e4">
+    <div class="container">
+      <div class="content">
+        <div class="header">
+          <div class="title-bg">MISSION 3</div>
+          <div class="title">
+            Ijuuu tu as réussi à déchiffrer quoi? kpaaa. Bon, comme le code
+            l'indique tu dois te rendre à une bijouterie pour récupérer un colis
+            et tu trouveras encore une fois un code à l'intérieur que tu devra
+            rentrer pour passer à l'étape suivante. Tout est encore à ton nom
+            donc ne sois pas inquiète. Voici l'adresse:
+
+            <p>RAPPEL: TOUT DOIT ETRE ECRIT EN MINISCULE!!</p>
+            <form id="enigmeForm" onsubmit="return validateAnswer()">
+              <div class="input-container">
+                <input
+                  type="text"
+                  placeholder="Entrez votre réponse"
+                  class="input-field"
+                  id="userInput"
+                />
+                <button type="submit" class="bottom-link">VALIDER</button>
+              </div>
+              <div id="errorMessage" class="error-message"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function validateAnswer() {
+        const correctAnswer = "hello"; // Réponse correcte
+        const userInput = document.getElementById("userInput").value.trim();
+        const errorMessage = document.getElementById("errorMessage");
+
+        if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
+          // Si la réponse est correcte, redirigez vers la page suivante
+          window.location.href = "enigme5.html";
+        } else {
+          // Si la réponse est incorrecte, affichez un message d'erreur
+          errorMessage.textContent = "Réponse incorrecte. Veuillez réessayer.";
+        }
+
+        return false; // Empêche le formulaire de se soumettre de manière traditionnelle
+      }
+    </script>
+  </body>
+</html>

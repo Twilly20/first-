@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page d'Authentification</title>
+    <link rel="stylesheet" href="proj.css" />
+  </head>
+  <body>
+    <div id="error-message" class="login-co" style="display: none">
+      Tu es trop wèrè wèrè, tu sais que tu ne connais pas les identifiants hin
+      mais tu forces, tchrr vas résoudre l'énigme là-bas !!!
+    </div>
+
+    <div class="login-container">
+      <h2>Connexion</h2>
+      <form id="loginForm" onsubmit="return validateLogin()">
+        <div class="form-group">
+          <label for="username">Nom d'utilisateur</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Se connecter</button>
+      </form>
+    </div>
+
+    <script>
+      function validateLogin() {
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        const errorMessage = document.getElementById("error-message");
+
+        if (username === "betchin" && password === "2022") {
+          // Rediriger vers une autre page si les identifiants sont corrects
+          window.location.href = "enigme2.html";
+          return false; // Empêche la soumission du formulaire
+        } else {
+          // Afficher le message d'erreur
+          errorMessage.style.display = "block";
+          return false; // Empêche la soumission du formulaire
+        }
+      }
+    </script>
+  </body>
+</html>

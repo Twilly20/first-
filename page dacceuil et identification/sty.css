@@ -1,0 +1,67 @@
+/* Styles de base pour le corps de la page */
+body {
+  /* Définir la police par défaut */
+  font-family: Arial, sans-serif;
+  /* Supprimer les marges par défaut */
+  margin: 0;
+  /* Supprimer les espacements internes par défaut */
+  padding: 0;
+  /* Couleur de fond de la page */
+  background-color: #f0f2f5;
+  /* Utiliser Flexbox pour centrer le contenu */
+  display: flex;
+  /* Centrer horizontalement */
+  justify-content: center;
+  /* Centrer verticalement */
+  align-items: center;
+  /* Prendre toute la hauteur de la fenêtre */
+  height: 100vh;
+}
+
+/* Style pour le conteneur principal */
+.content-container {
+  /* Couleur de fond blanche pour le conteneur */
+  background-color: #fff;
+  /* Espacement intérieur */
+  padding: 20px;
+  /* Coins arrondis */
+  border-radius: 30px;
+  /* Ombre pour donner de la profondeur */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Largeur fixe du conteneur, avec une largeur maximale */
+  width: 100%;
+  max-width: 600px;
+  /* Justifier le texte pour un alignement uniforme */
+  text-align: justify;
+  /* Position relative pour permettre un positionnement absolu interne */
+  position: relative;
+}
+
+/* Style pour le lien en bas */
+.bottom-link {
+  /* Afficher le lien comme un bloc pour prendre toute la largeur disponible */
+  display: block;
+  /* Espacement au-dessus du lien pour le séparer du texte */
+  margin-top: 20px;
+  margin-left: 80%;
+  /* Espacement intérieur */
+  padding: 10px 10px;
+  /* Couleur de fond bleue */
+  background-color: #007bff;
+  /* Couleur du texte */
+  color: #fff;
+  /* Supprimer la décoration de texte par défaut (soulignement) */
+  text-decoration: none;
+  /* Coins arrondis */
+  border-radius: 25% 10%;
+  /* Taille de la police */
+  font-size: 14px;
+  /* Centrer le texte à l'intérieur du lien */
+  text-align: center;
+}
+
+/* Changer la couleur de fond du lien au survol */
+.bottom-link:hover {
+  /* Couleur de fond bleue plus foncée */
+  background-color: #0056b3;
+}
