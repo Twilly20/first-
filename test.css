@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img3.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -40,7 +40,7 @@ body {
 
 /* Style pour le texte d'introduction */
 .title-bg {
-  background-color: #fd9935;
+  background-color: #fd3535;
   padding: 10px 20px;
   border-radius: 15px;
   font-size: 24px;
@@ -59,7 +59,7 @@ body {
   font-weight: normal;
   margin-top: 40px;
   text-align: justify; /* Justifier le texte pour une meilleure lisibilité */
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Police manuscrite pour correspondre au style de l'image */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Police manuscrite pour correspondre au style de l'image */
   max-height: 80vh; /* Limiter la hauteur maximale à 80% de la hauteur de la fenêtre */
   overflow-y: auto; /* Permettre le défilement vertical si le texte dépasse la hauteur maximale */
   padding: 10px;
@@ -114,7 +114,7 @@ body {
 .e2 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img1.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -128,7 +128,7 @@ body {
 .e3 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img2.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -142,7 +142,7 @@ body {
 .e4 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img4.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -156,7 +156,7 @@ body {
 .e5 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img5.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -170,7 +170,7 @@ body {
 .e6 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img6.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -184,7 +184,7 @@ body {
 .e7 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img7.jpeg") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
@@ -198,7 +198,7 @@ body {
 .e8 {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Choix d'une police manuscrite pour un style similaire */
+  font-family: "Comic Sans MS", "Comic Sans"; /* Choix d'une police manuscrite pour un style similaire */
   background: url("img8.webp") no-repeat center center fixed; /* Remplacez par l'image de fond */
   background-size: cover;
   display: flex;
